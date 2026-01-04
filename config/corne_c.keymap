@@ -19,7 +19,7 @@
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <24 0 35 11>;
+            key-positions = <0 11 38 39>;
         };
     };
 
@@ -59,8 +59,8 @@
         layer3 {
             label = "3";
             bindings = <
-&sys_reset  &none         &none         &none          &none          &none             &kp PAGE_UP           &kp HOME               &kp END            &kp PAGE_DOWN  &none  &none
-&none       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &kp LEFT              &kp DOWN               &kp UP             &kp RIGHT      &none  &none
+&sys_reset  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3   &none             &kp PAGE_UP           &kp HOME               &kp END            &kp PAGE_DOWN  &none  &none
+&none       &none         &none         &none          &none          &none             &kp LEFT              &kp DOWN               &kp UP             &kp RIGHT      &none  &none
 &none       &bt BT_CLR    &none         &none          &none          &bt BT_CLR_ALL    &none                 &kp DELETE             &none              &none          &none  &none
                                         &kp LS(GRAVE)  &kp LS(MINUS)  &kp LS(EQUAL)     &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)
             >;

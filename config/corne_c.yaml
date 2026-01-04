@@ -90,10 +90,10 @@ layers:
   - {type: held}
   '3':
   - '&sys_reset'
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
   - ''
   - PAGE UP
   - HOME
@@ -102,11 +102,11 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - LEFT
   - DOWN
   - UP
@@ -132,5 +132,5 @@ layers:
   - Sft+]
   - Sft+\
 combos:
-- p: [24, 0, 35, 11]
+- p: [0, 11, 38, 39]
   k: '&bootloader'

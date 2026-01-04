@@ -14,7 +14,14 @@
 #define SHORTCUTS   3
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <24 0 35 11>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

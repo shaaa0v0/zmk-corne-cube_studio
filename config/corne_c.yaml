@@ -42,8 +42,8 @@ layers:
   - {type: held}
   - ''
   - ''
-  - '['
-  - ']'
+  - Sft+[
+  - Sft+]
   - \
   '2':
   - ''
@@ -128,8 +128,8 @@ layers:
   - Sft+`
   - Sft+-
   - Sft+=
-  - Sft+[
-  - Sft+]
+  - Sft+Sft+[
+  - Sft+Sft+]
   - Sft+\
 combos:
 - p: [0, 11, 38, 39]
